@@ -40,5 +40,5 @@ npm install
 npm start
 🌐 Deployment (Render)
 ✅ Backend API: to be updated
-✅ Frontend (React): to be updated
+✅ Frontend (React):  https://sync-bridge-zeta.vercel.app/
 📝 Environment Variables (Backend)
