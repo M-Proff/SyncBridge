@@ -39,6 +39,6 @@ cd frontend
 npm install
 npm start
 🌐 Deployment (Render)
-✅ Backend API: Your Backend Render Link
-✅ Frontend (React): Your Frontend Render Link
+✅ Backend API: to be updated
+✅ Frontend (React): to be updated
 📝 Environment Variables (Backend)
