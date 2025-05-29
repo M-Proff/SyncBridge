@@ -1,40 +1,63 @@
-# SyncBridge 
+# SyncBridge
 
-SyncBridge is a MERN stack web application designed for real-time collaboration and synchronization of tasks, integrating powerful technologies like WebRTC, Sockets, and TCP/UDP protocols for seamless data flow and real-time communication.
+SyncBridge is a powerful MERN stack web application designed for real-time collaboration and task synchronization. It leverages advanced technologies like WebRTC, Socket.io, and custom TCP/UDP protocols to enable seamless, instant communication and data exchange.
 
-🛠 Tech Stack & Features
+## 📸 Screenshots
 
-✅ Frontend
-React.js - Interactive UI
-WebRTC - Real-time audio/video streaming
-Socket.io (Client) - Instant real-time communication
+<!--  
+Add your screenshots here by replacing the URLs below or use relative paths if you upload images to your repo.
 
-✅ Backend
-Node.js + Express.js - RESTful API and server
-MongoDB - Database for persistent storage
-Socket.io (Server) - Bi-directional real-time data transfer
-TCP/UDP (Custom implementation) - Handling low-level communication scenarios
+Example:  
+![Login Screen](screenshots/login.png)  
+![Dashboard](screenshots/dashboard.png)  
+-->
 
-✅ Core Features
-🗣 Real-time Communication (WebRTC)
-⚡ Live Syncing using Socket.io
-🗂 Task Management (CRUD Operations)
-📶 TCP/UDP layer support for efficient message delivery (where applicable)
-🔐 User Authentication
-💻 Responsive Design
-🌍 MongoDB integration for storage
+![Screenshot 1](screenshots/screenshot1.png)  
+![Screenshot 2](screenshots/screenshot2.png)  
+![Screenshot 3](screenshots/screenshot3.png)  
+
+---
+
+## 🛠 Tech Stack & Features
+
+### Frontend
+- **React.js** – Interactive and responsive UI  
+- **WebRTC** – Real-time audio and video streaming  
+- **Socket.io (Client)** – Real-time bidirectional communication  
+
+### Backend
+- **Node.js + Express.js** – RESTful API server  
+- **MongoDB** – Persistent database storage  
+- **Socket.io (Server)** – Real-time data transfer  
+- **TCP/UDP (Custom)** – Low-level communication support for optimized messaging  
+
+### Core Features
+- 🗣 **Real-time Communication** (WebRTC audio/video)  
+- ⚡ **Live Task Syncing** via Socket.io  
+- 🗂 **Task Management:** Create, Read, Update, Delete (CRUD) operations  
+- 📶 **TCP/UDP Layer** for efficient message delivery where applicable  
+- 🔐 **User Authentication** for secure access  
+- 💻 **Responsive Design** for seamless use on all devices  
+- 🌍 Full **MongoDB integration** for scalable storage  
+
+---
+
+## 🚧 Project Status
+
+- Work in progress — dashboard and backend connection occasionally show errors that are being fixed  
+- Additional features and scaling improvements planned  
+- Issues with order handling and real-time syncing will be resolved soon  
+ 
+
+---
 📦 Installation Guide
 1️⃣ Backend Setup
-bash
-Copy
-Edit
+
 cd backend
 npm install
 npm start
 2️⃣ Frontend Setup
-bash
-Copy
-Edit
+
 cd frontend
 npm install
 npm start
